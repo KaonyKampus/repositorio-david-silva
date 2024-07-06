@@ -188,14 +188,9 @@ body{
     background-color: #22D4FD;
 }
 
-@media screen and (max-width: 800px){
-    .main--content---full--box{
-        padding: 10rem 0rem;
-        width: 50%;
+@media(max-width: 800px){
+    .main{
         display: flex;
-        flex-direction: column;
-        gap: 40px;
-        align-items: center;
-    
+        flex-direction: column-reverse;
     }
 }
